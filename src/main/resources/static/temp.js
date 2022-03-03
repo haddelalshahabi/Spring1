@@ -1,3 +1,4 @@
+//Opggave 1
 //bruker anonym funksjon
 $(() =>{
     $("#getTemp").click(() => {

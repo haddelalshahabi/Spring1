@@ -2,6 +2,8 @@ package com.oslomet.spring1.service;
 
 import org.springframework.stereotype.Service;
 
+//Oppgave 1
+
 @Service
 public class TempService {
     private final Integer[] tempArray = new Integer[]{-3,-2,2,7,12,16,18,17,12,7,3,-2};
