@@ -1,6 +1,6 @@
 package com.oslomet.spring1.controller;
 
-import com.oslomet.spring1.service.Kunde;
+import com.oslomet.spring1.repository.Kunde;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class KundeController {
     @Autowired
-    Kunde service;
+    Kunde repository;
     @GetMapping("/")
     public Kunde returKunde(Kunde innKunde){
         return innKunde;

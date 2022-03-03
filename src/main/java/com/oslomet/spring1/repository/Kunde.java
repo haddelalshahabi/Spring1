@@ -1,8 +1,9 @@
-package com.oslomet.spring1.service;
+package com.oslomet.spring1.repository;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
 
-@Service
+
+@Repository
 public class Kunde {
     private String navn;
     private String adresse;

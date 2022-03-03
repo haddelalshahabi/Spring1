@@ -1,10 +1,11 @@
-package com.oslomet.spring1.service;
+package com.oslomet.spring1.repository;
 
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Repository;
+
 
 //Oppgave 1
-
-@Service
+//vi burker repository i dette emnet fordi den kan snakke med database
+@Repository
 public class TempService {
     private final Integer[] tempArray = new Integer[]{-3,-2,2,7,12,16,18,17,12,7,3,-2};
 
