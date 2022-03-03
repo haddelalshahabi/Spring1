@@ -1,3 +1,4 @@
+//oppgave2
 $(() => {
     $("#getAmount").click(() => {
         const currency = $("#currency").val()
