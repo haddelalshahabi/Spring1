@@ -1,12 +1,13 @@
 package com.oslomet.spring1.repository;
 
+//Oppgave 1
+//vi burker repository i dette emnet fordi den kan snakke med database
 import org.springframework.stereotype.Repository;
 
 
-//Oppgave 1
-//vi burker repository i dette emnet fordi den kan snakke med database
 @Repository
 public class TempService {
+
     private final Integer[] tempArray = new Integer[]{-3,-2,2,7,12,16,18,17,12,7,3,-2};
 
     public int getTemp(String mnd){
